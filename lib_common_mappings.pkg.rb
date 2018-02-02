@@ -68,7 +68,7 @@ mapping "map_cloud" do {
     "pg" => null,
     "mci_mapping" => "Public",
   },
-  "Google Eemshaven (NL)" => {
+  "Google NL (Eemshaven)" => {
     "cloud" => "Google",
     "zone" => "europe-west4-b", # launches in Google require a zone
     "instance_type" => "n1-standard-2",
@@ -220,56 +220,24 @@ mapping "map_instancetype" do {
     "AWS" => "m3.xlarge",
     "Azure" => "D1",
     "Google" => "n1-standard-2",
-    "Google US-West" => "n1-standard-2",
-    "Google US-East" => "n1-standard-2",
-    "Google UK" => "n1-standard-2",
-    "Google EU-West" => "n1-standard-2",
-    "Google JP" => "n1-standard-2",
-    "Google AUS" => "n1-standard-2",
-    "QAD Private Cloud - Corporate Zone A" => "Small (1 vCPU, 16GB vRAM)",
-  "QAD Private Cloud - Corporate Zone B" => "Small (1 vCPU, 16GB vRAM)",
-    "VIAWEST-ARAPAHOE" => "QAD Cloud Small"
+    "VMware" => "Small (1 vCPU, 16GB vRAM)",
   },
   "2CPU-16GB" => {
     "AWS" => "m3.2xlarge",
     "Azure" => "D2",
     "Google" => "n1-standard-4",
-    "Google US-West" => "n1-standard-4",
-    "Google US-East" => "n1-standard-4",
-    "Google UK" => "n1-standard-4",
-    "Google EU-West" => "n1-standard-4",
-    "Google JP" => "n1-standard-4",
-    "Google JP" => "n1-standard-4",
-    "QAD Private Cloud - Corporate Zone A" => "Medium (2 vCPU, 16GB vRAM)",
-  "QAD Private Cloud - Corporate Zone B" => "Medium (2 vCPU, 16GB vRAM)",
-    "VIAWEST-ARAPAHOE" => "QAD Cloud Medium"
+    "VMware" => "Medium (2 vCPU, 16GB vRAM)",
   },
   "2CPU-32GB" => {
     "AWS" => "m3.4xlarge",
     "Azure" => "D3",
     "Google" => "n1-standard-8",
-    "Google US-West" => "n1-standard-8",
-    "Google US-East" => "n1-standard-8",
-    "Google UK" => "n1-standard-8",
-    "Google EU-West" => "n1-standard-8",
-    "Google JP" => "n1-standard-8",
-    "Google AUS" => "n1-standard-8",
-    "QAD Private Cloud - Corporate Zone A" => "Large (2 vCPU, 32GB vRAM)",
-  "QAD Private Cloud - Corporate Zone B" => "Large (2 vCPU, 32GB vRAM)",
-    "VIAWEST-ARAPAHOE" => "QAD Cloud Large"
+    "VMware" => "Large (2 vCPU, 32GB vRAM)",
   },
   "4CPU-64GB" => {
-  "AWS" => "m3.4xlarge",
-  "Azure" => "D3",
-  "Google" => "n1-standard-8",
-  "Google US-West" => "n1-standard-8",
-  "Google US-East" => "n1-standard-8",
-  "Google UK" => "n1-standard-8",
-  "Google EU-West" => "n1-standard-8",
-  "Google JP" => "n1-standard-8",
-  "Google AUS" => "n1-standard-8",
-  "QAD Private Cloud - Corporate Zone A" => "Huge (4 vCPU, 64GB vRAM)",
-  "QAD Private Cloud - Corporate Zone B" => "Huge (4 vCPU, 64GB vRAM)",
-  "VIAWEST-ARAPAHOE" => "QAD Cloud Extra Large"
+   "AWS" => "m3.4xlarge",
+   "Azure" => "D3",
+   "Google" => "n1-standard-8",
+   "VMware" => "Huge (4 vCPU, 64GB vRAM)",
   }
 } end
